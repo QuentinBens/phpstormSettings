@@ -12,9 +12,7 @@
     <keyboard-shortcut first-keystroke="ctrl colon" />
   </action>
   <action id="Diff.NextChange" />
-  <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="alt back_space" />
-  </action>
+  <action id="EditorDeleteLine" />
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
