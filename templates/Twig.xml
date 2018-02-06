@@ -1,0 +1,8 @@
+<templateSet group="Twig">
+  <template name="trs" value="{{ '$END$'|trans }}" description="translation tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
