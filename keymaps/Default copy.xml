@@ -32,4 +32,7 @@
   <action id="NextTab" />
   <action id="PreviousEditorTab" />
   <action id="PreviousTab" />
+  <action id="Tool_External Tools_php-cs-fixer">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
 </keymap>
