@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="heroku" type="PLAIN_TEXT" />
+      <mapping pattern="apache2-foreground" type="PLAIN_TEXT" />
       <mapping pattern=".env.prod" type="PLAIN_TEXT" />
       <mapping pattern="0b2c621c09ec40ed7efc93cf20dcd8f6a24e090d" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
