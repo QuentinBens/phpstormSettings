@@ -1,0 +1,11 @@
+<keymap version="1" name="GNOME copy" parent="Default for GNOME">
+  <action id="Diff.NextChange" />
+  <action id="EditorCodeBlockEnd">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="NextTab" />
+  <action id="Runner.CloseView">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+</keymap>
