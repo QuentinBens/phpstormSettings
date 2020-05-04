@@ -1,11 +1,27 @@
 <keymap version="1" name="GNOME copy" parent="Default for GNOME">
-  <action id="Diff.NextChange" />
-  <action id="EditorCodeBlockEnd">
-    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
-    <keyboard-shortcut first-keystroke="alt right" />
-  </action>
-  <action id="NextTab" />
-  <action id="Runner.CloseView">
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="alt delete" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
+  <action id="EditorDeleteToWordStart" />
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="MethodDown" />
+  <action id="NextTab" />
+  <action id="PreviousTab" />
+  <action id="SafeDelete" />
+  <action id="ShowContent" />
+  <action id="ShowSearchHistory" />
 </keymap>
