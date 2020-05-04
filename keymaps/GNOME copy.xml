@@ -10,7 +10,6 @@
     <keyboard-shortcut first-keystroke="alt delete" />
     <keyboard-shortcut first-keystroke="alt back_space" />
   </action>
-  <action id="EditorDeleteToWordStart" />
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
