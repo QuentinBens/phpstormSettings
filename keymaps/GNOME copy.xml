@@ -22,10 +22,29 @@
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="ExternalSystem.ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
   <action id="MethodDown" />
   <action id="NextTab" />
   <action id="PreviousTab" />
   <action id="SafeDelete" />
   <action id="ShowContent" />
   <action id="ShowSearchHistory" />
+  <action id="ZoomCurrentWindow">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
 </keymap>
