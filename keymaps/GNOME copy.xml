@@ -1,5 +1,8 @@
 <keymap version="1" name="GNOME copy" parent="Default for GNOME">
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -9,6 +12,8 @@
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="ctrl colon" />
   </action>
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="EditorDeleteLine">
@@ -18,8 +23,16 @@
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift home" />
+    <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
   <action id="EditorSelectWord" />
   <action id="ExpandAll">
@@ -35,11 +48,16 @@
   <action id="ExternalSystem.ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+  </action>
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="MethodDown" />
+  <action id="NextEditorTab" />
   <action id="NextTab" />
+  <action id="PreviousEditorTab" />
   <action id="PreviousTab" />
   <action id="SafeDelete" />
   <action id="ShowContent" />
