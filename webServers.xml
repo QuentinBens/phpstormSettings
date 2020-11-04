@@ -1,0 +1,13 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b5220caa-0938-4aae-abca-ecd91c83cb34" name="PREPROD-media_manager" url="http://ovh-stream-preprod.stream-up.eu/">
+        <fileTransfer accessType="SFTP" host="51.210.109.24" port="50505" sshConfigId="1dfec811-08c2-46a9-a0cc-e5e73f67dc7e" sshConfig="PREPROD-media_manager" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
