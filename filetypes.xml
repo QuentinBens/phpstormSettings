@@ -6,6 +6,7 @@
       <mapping ext="debug" type="PLAIN_TEXT" />
       <mapping ext="sscs" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
