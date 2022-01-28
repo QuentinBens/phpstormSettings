@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="import" type="AUTO_DETECTED" />
       <mapping pattern="AjaxResponseException" type="AUTO_DETECTED" />
+      <mapping pattern="rsaid" type="AUTO_DETECTED" />
       <mapping pattern="tata" type="AUTO_DETECTED" />
       <mapping pattern="AnalycticsExcelService" type="PHP" />
       <mapping ext="x86_64" type="PLAIN_TEXT" />
