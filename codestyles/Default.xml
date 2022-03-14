@@ -24,5 +24,13 @@
     <option name="CALL_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
     <option name="METHOD_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
     <option name="METHOD_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
+    <arrangement>
+      <groups>
+        <group>
+          <type>GETTERS_AND_SETTERS</type>
+          <order>KEEP</order>
+        </group>
+      </groups>
+    </arrangement>
   </codeStyleSettings>
 </code_scheme>
