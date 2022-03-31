@@ -8,6 +8,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="80f15122-8a69-47ff-b42e-3d3aa1bc72fb" name="senna">
+        <fileTransfer rootFolder="/root" accessType="SFTP" host="senna" port="22" sshConfigId="27b89af2-3cf5-4f9e-b998-a029e1b77522" sshConfig="root@senna:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

@@ -7,6 +7,7 @@
       <sshConfig host="146.59.195.175" id="d17ee495-c08a-4b08-9424-cebd8323c86b" keyPath="$USER_HOME$/.ssh/id_rsa" port="50505" customName="STAGING-media_manager" nameFormat="CUSTOM" username="serveur">
         <option name="customName" value="STAGING-media_manager" />
       </sshConfig>
+      <sshConfig host="senna" id="27b89af2-3cf5-4f9e-b998-a029e1b77522" keyPath="$USER_HOME$/.ssh/id_rsa_ha" port="22" nameFormat="DESCRIPTIVE" username="root" />
     </configs>
   </component>
 </application>
