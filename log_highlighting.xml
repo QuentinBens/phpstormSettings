@@ -2,10 +2,9 @@
   <component name="LogHighlightingSettings">
     <highlightingPatterns>
       <LogHighlightingPattern stripe="true" />
-      <LogHighlightingPattern pattern="(?P&lt;ip&gt;.*?) (?P&lt;remote_log_name&gt;.*?) (?P&lt;userid&gt;.*?) \[(?P&lt;date&gt;.*?)(?= ) (?P&lt;timezone&gt;.*?)\] \&quot;(?P&lt;request_method&gt;.*?) (?P&lt;path&gt;.*?)(?P&lt;request_version&gt; HTTP/.*)?\&quot; (?P&lt;status&gt;.*?) (?P&lt;length&gt;.*?) \&quot;(?P&lt;referrer&gt;.*?)\&quot; \&quot;(?P&lt;user_agent&gt;.*?)\&quot; (?P&lt;session_id&gt;.*?) (?P&lt;generation_time_micro&gt;.*?) (?P&lt;virtual_host&gt;.*)" stripe="true" />
     </highlightingPatterns>
     <parsingPatterns>
-      <LogParsingPattern enabled="false" name="(?P&lt;ip&gt;.*?) (?P&lt;remote_log_name&gt;.*?) (?P&lt;userid&gt;.*?) \[(?P&lt;date&gt;.*?)(?= ) (?P&lt;timezone&gt;.*?)\] \&quot;(?P&lt;request_method&gt;.*?) (?P&lt;path&gt;.*?)(?P&lt;request_version&gt; HTTP/.*)?\&quot; (?P&lt;status&gt;.*?) (?P&lt;length&gt;.*?) \&quot;(?P&lt;referrer&gt;.*?)\&quot; \&quot;(?P&lt;user_agent&gt;.*?)\&quot; (?P&lt;session_id&gt;.*?) (?P&lt;generation_time_micro&gt;.*?) (?P&lt;virtual_host&gt;.*)" />
+      <LogParsingPattern name="Apach2" pattern="^\[(.*)\] (.+?)\.([A-Z]+): (.*)" timePattern="yyyy-MM-dd HH:mm:ss" linePattern="^\[" timeId="0" severityId="2" categoryId="1" />
     </parsingPatterns>
     <settingsVersion>4</settingsVersion>
     <lastAddedDefaultFormat>3</lastAddedDefaultFormat>
