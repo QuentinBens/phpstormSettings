@@ -8,6 +8,36 @@
         <option name="customName" value="STAGING-media_manager" />
       </sshConfig>
       <sshConfig host="senna" id="27b89af2-3cf5-4f9e-b998-a029e1b77522" keyPath="$USER_HOME$/.ssh/id_rsa_ha" port="22" nameFormat="DESCRIPTIVE" username="root" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="135.125.134.81" id="fbef8997-b958-47e0-bad6-995a3cb32a4f" keyPath="$USER_HOME$/.ssh/id_rsa" port="50505" customName="PROD-web1" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="PROD-web1" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="135.125.134.214" id="a8141b4d-3567-484a-8aca-0d2278b06168" keyPath="$USER_HOME$/.ssh/id_rsa" port="50505" customName="PROD-web2" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="PROD-web2" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="135.125.89.144" id="0e0da928-595d-4b10-81fd-1acffa1152d6" keyPath="$USER_HOME$/.ssh/id_rsa" port="50505" customName="PROD-web3" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="PROD-web3" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="146.59.250.193" id="10f592bb-5907-4ddc-8b70-441c59562990" keyPath="$USER_HOME$/.ssh/id_rsa" port="50505" customName="PROD-web4" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="PROD-web4" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="51.210.38.9" id="58a15694-1f1e-497b-9399-2a9012dfbcf3" keyPath="$USER_HOME$/.ssh/id_rsa" port="50505" customName="PROD-web5" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="PROD-web5" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="51.210.37.250" id="d3dcecf3-375b-4211-a379-2a858b0b8d02" keyPath="$USER_HOME$/.ssh/id_rsa" port="50505" customName="PROD-web6" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="PROD-web6" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="51.210.37.214" id="eb67af71-986e-4490-8d56-89a624ca06db" keyPath="$USER_HOME$/.ssh/id_rsa" port="50505" customName="PROD-web7" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="PROD-web7" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="51.210.37.161" id="b2a0a859-9052-4b2b-bb9a-c19790f3e127" keyPath="$USER_HOME$/.ssh/id_rsa" port="50505" customName="PROD-web8" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="PROD-web8" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="51.210.123.42" id="3c688ffd-58a6-4a14-93e9-8c63d7e67cd1" keyPath="$USER_HOME$/.ssh/id_rsa" port="50505" customName="PROD-cron1" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="PROD-cron1" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="135.125.217.143" id="58bc1bfe-71f6-4e15-85d5-568a3d03757e" keyPath="$USER_HOME$/.ssh/id_rsa" port="50505" customName="PROD-cron2" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="PROD-cron2" />
+      </sshConfig>
     </configs>
   </component>
 </application>

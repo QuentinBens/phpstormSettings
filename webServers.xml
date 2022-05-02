@@ -15,6 +15,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="55f3eec4-d70b-42fd-ab12-5cc18663d90a" name="PROD-cron1">
+        <fileTransfer rootFolder="/var/www/html/media-manager/current" accessType="SFTP" host="51.210.123.42" port="50505" sshConfigId="3c688ffd-58a6-4a14-93e9-8c63d7e67cd1" sshConfig="PROD-cron1" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
