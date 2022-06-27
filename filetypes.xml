@@ -6,6 +6,7 @@
       <mapping pattern="rsaid" type="AUTO_DETECTED" />
       <mapping pattern="tata" type="AUTO_DETECTED" />
       <mapping pattern="AnalycticsExcelService" type="PHP" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping ext="x86_64" type="PLAIN_TEXT" />
       <mapping ext="debug" type="PLAIN_TEXT" />
       <mapping ext="fwl" type="PLAIN_TEXT" />
@@ -14,6 +15,7 @@
       <mapping ext="init" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
