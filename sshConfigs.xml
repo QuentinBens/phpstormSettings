@@ -41,6 +41,9 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="o-pu-mm-preprod.stream-up.eu" id="d134b69e-e13e-4f68-bcf4-b0afc429898c" keyPath="$USER_HOME$/.ssh/id_rsa" port="50505" customName="o-pu-mm-preprod" nameFormat="CUSTOM" username="root">
         <option name="customName" value="o-pu-mm-preprod" />
       </sshConfig>
+      <sshConfig host="o-pu-mm-qa.stream-up.eu" id="9d73fb94-4fca-4647-88cc-bd0f274c75c2" keyPath="$USER_HOME$/.ssh/id_rsa" port="50505" customName="root@QA-media_manager" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="root@QA-media_manager" />
+      </sshConfig>
     </configs>
   </component>
 </application>
