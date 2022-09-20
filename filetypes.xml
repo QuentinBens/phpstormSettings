@@ -12,23 +12,8 @@
       <mapping pattern="root" type="AUTO_DETECTED" />
       <mapping pattern="AjaxResponseException" type="AUTO_DETECTED" />
       <mapping ext="processed" type="AUTO_DETECTED" />
-      <mapping pattern="jest.config" type="JSON" />
-      <mapping pattern=".eslintrc" type="JSON" />
-      <mapping pattern=".stylelintrc" type="JSON" />
-      <mapping pattern=".babelrc" type="JSON" />
-      <mapping pattern="bowerrc" type="JSON" />
-      <mapping ext="jsb3" type="JSON" />
-      <mapping ext="jsb2" type="JSON" />
       <mapping pattern="AnalycticsExcelService" type="PHP" />
-      <mapping pattern=".jshintignore" type="PLAIN_TEXT" />
-      <mapping pattern=".stylelintignore" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
-      <mapping pattern=".npmrc" type="PLAIN_TEXT" />
-      <mapping pattern=".npmignore" type="PLAIN_TEXT" />
-      <mapping pattern=".yarnrc" type="PLAIN_TEXT" />
-      <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
-      <mapping pattern=".node-version" type="PLAIN_TEXT" />
-      <mapping pattern=".eslintignore" type="PLAIN_TEXT" />
       <mapping ext="x86_64" type="PLAIN_TEXT" />
       <mapping ext="debug" type="PLAIN_TEXT" />
       <mapping ext="fwl" type="PLAIN_TEXT" />
@@ -41,6 +26,10 @@
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
+      <removed_mapping pattern=".eslintignore" approved="true" type="ESLint File" />
+      <removed_mapping pattern=".jshintignore" approved="true" type="JSHint File" />
+      <removed_mapping pattern=".npmignore" approved="true" type="Npm File" />
+      <removed_mapping pattern=".stylelintignore" approved="true" type="StyleLint File" />
     </extensionMap>
   </component>
 </application>
