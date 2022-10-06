@@ -3,6 +3,7 @@
     <option name="sessionFiles">
       <list>
         <option value="file://$USER_HOME$/.mysql/workbench/log/wb.log" />
+        <option value="file://$USER_HOME$/Downloads/client_secret_630412423039-msco1chfvr0gahflvo5p5fenov6a9n4k.apps.googleusercontent.com (1).json" />
       </list>
     </option>
     <option name="supportedFilePatterns">
@@ -19,7 +20,7 @@
       </list>
     </option>
     <option name="frameInfo">
-      <frame x="2180" y="40" width="1400" height="1000" />
+      <frame x="316" y="44" width="1400" height="1000" />
     </option>
   </component>
 </application>
