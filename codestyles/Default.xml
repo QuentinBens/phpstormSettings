@@ -31,9 +31,6 @@
     <option name="ARRAY_INITIALIZER_WRAP" value="2" />
     <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
-    <indentOptions>
-      <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-    </indentOptions>
     <arrangement>
       <groups>
         <group>
