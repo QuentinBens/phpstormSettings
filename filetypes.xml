@@ -3,14 +3,14 @@
     <extensionMap>
       <mapping pattern="access_ssl_log" type="AUTO_DETECTED" />
       <mapping pattern="proxy_access_ssl_log" type="AUTO_DETECTED" />
+      <mapping pattern="import" type="AUTO_DETECTED" />
+      <mapping pattern="root" type="AUTO_DETECTED" />
       <mapping pattern="access_log" type="AUTO_DETECTED" />
+      <mapping pattern="AjaxResponseException" type="AUTO_DETECTED" />
       <mapping pattern="error_log" type="AUTO_DETECTED" />
       <mapping pattern="proxy_error_log" type="AUTO_DETECTED" />
       <mapping pattern="rsaid" type="AUTO_DETECTED" />
       <mapping pattern="tata" type="AUTO_DETECTED" />
-      <mapping pattern="import" type="AUTO_DETECTED" />
-      <mapping pattern="root" type="AUTO_DETECTED" />
-      <mapping pattern="AjaxResponseException" type="AUTO_DETECTED" />
       <mapping ext="processed" type="AUTO_DETECTED" />
       <mapping pattern="AnalycticsExcelService" type="PHP" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
